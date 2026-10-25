@@ -1,0 +1,21 @@
+CODEALPHA DATA SCIENCE TASK 4 - BUSINESS MARKETING INSIGHTS
+=================================================================
+
+1. TV ADVERTISING IS THE PRIMARY DRIVER OF TOTAL SALES VOLUME:
+   - TV spend has the strongest correlation with Sales (r = 0.782).
+   - In the Random Forest model, TV commands 62.5% of overall feature importance.
+   - Strategic Takeaway: Sustained TV campaigns are essential for broad brand reach and large-scale sales volume.
+
+2. RADIO DELIVERS THE HIGHEST RETURN PER DOLLAR SPENT (HIGHEST MARGINAL ROI):
+   - In Multiple Linear Regression, Radio has the highest coefficient (+0.1892) compared to TV (+0.0447).
+   - This means that holding other channels constant, an extra $1,000 invested in Radio produces approximately 189 additional unit sales, whereas TV yields 45 unit sales.
+   - Strategic Takeaway: Radio is extremely cost-effective and should be allocated higher budget share in regional and conversion-focused pushes.
+
+3. NEWSPAPER ADVERTISING PROVIDES NEGLIGIBLE STANDALONE BENEFIT:
+   - Newspaper correlation with Sales is weak (r = 0.228), and its linear regression coefficient is near zero (+0.0028).
+   - In the Random Forest model, Newspaper accounts for merely 1.3% of predictive power.
+   - Strategic Takeaway: Marketing management should reallocate newspaper ad spend into high-performing digital, TV, or radio channels to maximize overall ROI.
+
+4. SYNERGY AND NON-LINEAR INTERACTION ACROSS CHANNELS:
+   - The Random Forest Regressor outperformed Linear Regression (R² of 0.9813 vs. 0.8994, reducing MAE from 1.461 to 0.620).
+   - This proves that advertising channels do not act in isolation: combining TV awareness with Radio frequency creates a compounding non-linear multiplier effect on sales.
